@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-<section class="formField">
-
-    <form id="form">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="formField">
+        <div id="error-message"></div>
+        <p id="success-message" class="hidden">Form submitted successfully!</p>
+      <form id="form">
         <fieldset>
-            <legend>Personal Information</legend>
-            <label for="name"><span>Full</span> Name</label>
-            <input type="text" placeholder="Enter your name" class="name" required id="name" />
-           
-            <label for="name">Email <span>address</span> </label>
-            <input type="text" placeholder="Enter your name" class="name" required id="email" />
-           
-            <label for="name"><span>Phone</span> number</label>
-            <input type="tel" placeholder="Enter your name" class="name" required id="Phone" />
-           
-            <label for="name"><span>Gen</span>der</label>
-     <input type="checkbox"  placeholder="Enter your name"  class="gender" id="gender" />Male
-        <input type="checkbox" placeholder="Enter your name" class="gender" id="gender" />  Female 
-           
-            <label for="password"><span>Pass</span>word</label>
-            <input type="password" placeholder="Enter your name" required class="name" id="Pass" />
-           
-            <button type="submit" class="submit" >Submit</button>
+          <legend>Personal Information</legend>
+          <label for="name"><span>Full</span> Name</label>
+          <input type="text" placeholder="Enter your name" class="name" required id="name" />
+
+          <label for="email">Email <span>address</span> </label>
+          <input type="text" placeholder="Enter your email" class="email" required id="email" />
+
+          <label for="phone"><span>Phone</span> number</label>
+          <input type="tel" placeholder="Enter your phone number" class="phone" required id="phone" />
+
+          <label for="gender"><span>Gen</span>der</label>
+          <input type="checkbox" placeholder="Enter your gender" class="gender" id="male" />Male
+          <input type="checkbox" placeholder="Enter your gender" class="gender" id="female" />Female
+
+          <label for="password"><span>Pass</span>word</label>
+          <input type="password" placeholder="Enter your password" required class="password" id="password" />
+
+          <button type="submit" class="submit">Submit</button>
         </fieldset>
-    </form>
+      </form>
 
-</section>
+   
+    </section>
 
-
-<script src="./main.js" defer ></script>
-</body>
+    <script src="./main.js" defer></script>
+  </body>
 </html>

@@ -42,7 +42,15 @@ input, label, button{
 span{
 color: rgb(55, 0, 255);
 }
-
+#success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
 
 @media (max-width:580px){
     fieldset{
