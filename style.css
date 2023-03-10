@@ -51,7 +51,9 @@ color: rgb(55, 0, 255);
   .hidden {
     display: none;
   }
-
+.error{
+    margin: 5px 30px;
+}
 @media (max-width:580px){
     fieldset{
         padding: 10px 20px;
